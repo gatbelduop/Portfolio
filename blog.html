@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="icon" href="log.png" type="log.png">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="log.png"></a>
+            
+            <div class="nav-link" id ="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+<div class="text-box">
+    <h1>Practical & Online Programs</h1>
+    <p>I do study Online and connect with friends anywhere in the world. I provide hands-on practical training<br> and flexible online programs designed to help learners master technology step by step. My teaching style focuses on clarity, <br>real-world application, and inclusiveness, ensuring that every student can confidently apply what they learn. <br>Reach me on these platforms: <b>Github, Linkedin, YouTube, and Facebook</b></p>
+</div>
+    </section>
+<!----------------------Blog page Content--------------------------->
+
+<section class="row">
+    <div class="blog-left">
+        <img src="Certificate.jpg">
+        <h2>My Discussions & Online Programs</h2>
+        <p>• Online Tutorials and Courses: Platforms like Codecademy, Udemy, and freeCodeCamp offer a wealth of learning materials that cater to various skill levels.</p><br>
+        <p>• Open Source Contributions: The open-source community encourages collaboration, allowing developers to learn from each other and share code.</p><br>
+        <p>• Forums and Discussion Groups: Platforms like Stack Overflow and GitHub Discussions provide spaces for developers to seek help, share knowledge, and solve problems collectively.</p><br>
+        <p>• The landscape of web development has become increasingly user-friendly, thanks to advancements in frameworks, low-code solutions, CMS platforms, IDEs, and community resources. These changes have not only made it easier for seasoned developers to build complex applications but have also empowered individuals with little to no coding experience to create their own websites. </p><br>
+    
+
+    <div class="comment-box">
+        <h3>Leave a Comment</h3>
+        <form class="comment-form">
+            <input type="text" placeholder="Your Name">
+            <input type="email" placeholder="Your Email">
+            <textarea rows="5" placeholder="Your Comment"></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+        </form>
+    </div>
+
+</div>
+    <div class="blog-right">
+        <h3>Post Categories</h3>
+        <div>
+            <span>Website development</span>
+            <span>12</span>
+
+        </div>
+        <div>
+            <span>Programming Languages</span>
+            <span>09</span>
+        </div>
+        <div>
+            <span>Cybersecurity</span>
+            <span>15</span>
+        </div>
+        <div>
+            <span>Data Analysis</span>
+            <span>07</span>
+        </div>
+        <div>
+            <span>Multimedia</span>
+            <span>05</span>
+        </div>
+        <div>
+            <span>Online Learning</span>
+            <span>10</span>
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+<!--------------------Our facilities------------------->
+
+
+
+
+
+
+
+<!--------Footer section ends here------------------------->
+<section class="footer">
+    <h4>About Me</h4>
+    <p>I am committed to providing quality discussion and resources to help me and my friends succeed in our academic journey.</p>    <div class="icons">
+        
+        <a href="https://web.facebook.com/gatbel.duop.chol">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://github.com/gatbelduop">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/gatbel-duop-chol">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/GChol63991">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/@gatbelduop">
+            <i class="fa fa-youtube"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Gatbel Duop Chol</p>
+</section>
+
+
+<!--------JavaScript section for mobile menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Website</title>
+    <link rel="icon" href="log.png" type="log.png">
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="log.png"></a>
+            
+            <div class="nav-link" id ="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="courses.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+
+        </nav>
+<div class="text-box">
+    <h1>About me</h1>
+    <p>Gatbel Duop Chol is an IT professional, digital innovator, and creative storyteller <br>born in Akobo, South Sudan. His journey reflects a unique blend of technical mastery and artistic authenticity, <br>shaped by both his academic path and cultural roots.</p>
+</div>
+    </section>
+
+<!------------About us contents---------------->
+
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>I am Tutor</h1>
+            <p>“I am an experienced Technology Tutor who specializes in simplifying complex concepts and empowering learners to master IT skills with confidence. My expertise spans software development, troubleshooting, database design, web development, and cybersecurity, and I bring a practical, hands-on approach to every lesson.</p>
+
+            <p>As a tutor, I focus on clarity, patience, and real-world application—whether guiding students through Python programming, fixing MySQL errors, or building responsive websites. I believe in step-by-step learning, ensuring that each student not only understands the theory but can apply it effectively in practice.</p>            
+            
+            <a href="" class="hero-btn red-btn">Explore My Courses</a>
+        </div>
+            <div class="about-col">
+                <img src="gatbel 2.png">
+
+            </div>
+    </div>
+</section>
+
+<!--------Footer section ends here-------->
+
+<section class="footer">
+    <h4>About Me</h4>
+    <p>I am committed to providing quality discussion and resources to help me and my friends succeed in our academic journey.</p>    
+    
+    <div class="icons">
+        <a href="https://web.facebook.com/gatbel.duop.chol">
+            <i class="fa fa-facebook"></i>
+        </a>
+        <a href="https://github.com/gatbelduop">
+            <i class="fa fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/in/gatbel-duop-chol">
+            <i class="fa fa-linkedin"></i>
+        </a>
+        <a href="https://x.com/GChol63991">
+            <i class="fa fa-twitter"></i>
+        </a>
+        <a href="https://www.youtube.com/@gatbelduop">
+            <i class="fa fa-youtube"></i>
+        </a>
+    </div>
+    <p>Made with <i class="fa fa-heart-o"></i> by Gatbel Duop Chol</p>
+</section>
+
+
+<!--------JavaScript section for mobile menu-------->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+</body>
+</html>
